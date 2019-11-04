@@ -49,8 +49,7 @@ int main() {
                 printf("El numero ha sigut: %i i el te unmero es: %i",numero_ruleta,numero_escollit);
             }
 
-        }else //Com ja s'ha comprovat anteriorment que sol es pot seleccionar 'ENDEVINAR' o 'PARELL_SENAR' else es correcte
-        {
+        }else{
             printf("Has seleccionat Parell o Senar\n");
             printf("---------------------------------\n\n");
             numero_escollit = -1;
