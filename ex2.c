@@ -40,7 +40,7 @@ char pause;
     seleccioSistemaOperatiu(&ubuntu);
     while (seleccio != NO_JUGAR && monedero > 0)
     {
-        seleccio = seleccioJoc(ubuntu,&seleccio,monedero);
+        seleccio = seleccioJoc(ubuntu,seleccio,monedero);
         if (seleccio != NO_JUGAR){
             cantitatAposta(ubuntu,&aposta,monedero);
 
